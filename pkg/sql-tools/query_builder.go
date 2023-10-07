@@ -6,10 +6,11 @@ import (
 	"reflect"
 	"time"
 
+	"echo-rest-api/pkg/constants"
+	"echo-rest-api/pkg/contexts"
+	"echo-rest-api/pkg/utils"
+
 	"github.com/Masterminds/squirrel"
-	"github.com/dzungtran/echo-rest-api/pkg/constants"
-	"github.com/dzungtran/echo-rest-api/pkg/contexts"
-	"github.com/dzungtran/echo-rest-api/pkg/utils"
 )
 
 type options struct {

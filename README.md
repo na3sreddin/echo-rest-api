@@ -1,8 +1,8 @@
 [![Build Status](https://app.travis-ci.com/dzungtran/echo-rest-api.svg?branch=main)](https://app.travis-ci.com/dzungtran/echo-rest-api)
 [![codecov](https://codecov.io/gh/dzungtran/echo-rest-api/branch/main/graph/badge.svg?token=hxaHIVyoBN)](https://codecov.io/gh/dzungtran/echo-rest-api)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/dzungtran/echo-rest-api/blob/master/LICENSE)
-[![Go Reference](https://pkg.go.dev/badge/github.com/dzungtran/echo-rest-api.svg)](https://pkg.go.dev/github.com/dzungtran/echo-rest-api)
-[![GoReportCard Badge](https://goreportcard.com/badge/github.com/dzungtran/echo-rest-api)](https://goreportcard.com/report/github.com/dzungtran/echo-rest-api)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://echo-rest-api/blob/master/LICENSE)
+[![Go Reference](https://pkg.go.dev/badge/echo-rest-api.svg)](https://pkg.go.dev/echo-rest-api)
+[![GoReportCard Badge](https://goreportcard.com/badge/echo-rest-api)](https://goreportcard.com/report/echo-rest-api)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/dzungtran/echo-rest-api.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/dzungtran/echo-rest-api/alerts/)
 
 # Echo REST API boilerplate
@@ -26,9 +26,9 @@ Any feedback and pull requests are welcome and highly appreciated. Feel free to 
 
 ## HOW TO USE THIS TEMPLATE
 
-> **DO NOT FORK** this is meant to be used from **[Use this template](https://github.com/dzungtran/echo-rest-api/generate)** feature.
+> **DO NOT FORK** this is meant to be used from **[Use this template](https://echo-rest-api/generate)** feature.
 
-1. Click on **[Use this template](https://github.com/dzungtran/echo-rest-api/generate)**
+1. Click on **[Use this template](https://echo-rest-api/generate)**
 2. Give a name to your project  
    (e.g. `my_awesome_project` recommendation is to use all lowercase and underscores separation for repo names.)
 3. Wait until the first run of CI finishes  

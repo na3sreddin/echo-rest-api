@@ -1,4 +1,4 @@
-module github.com/dzungtran/echo-rest-api
+module echo-rest-api
 
 go 1.19
 

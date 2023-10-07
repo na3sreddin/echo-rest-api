@@ -3,14 +3,15 @@ package di
 import (
 	"io/fs"
 
-	"github.com/dzungtran/echo-rest-api/config"
-	"github.com/dzungtran/echo-rest-api/infrastructure/datastore"
-	"github.com/dzungtran/echo-rest-api/modules/core"
-	coreTemplates "github.com/dzungtran/echo-rest-api/modules/core/handlers/templates"
-	"github.com/dzungtran/echo-rest-api/modules/projects"
-	"github.com/dzungtran/echo-rest-api/pkg/logger"
-	"github.com/dzungtran/echo-rest-api/pkg/middlewares"
-	sqlTools "github.com/dzungtran/echo-rest-api/pkg/sql-tools"
+	"echo-rest-api/config"
+	"echo-rest-api/infrastructure/datastore"
+	"echo-rest-api/modules/core"
+	coreTemplates "echo-rest-api/modules/core/handlers/templates"
+	"echo-rest-api/modules/projects"
+	"echo-rest-api/pkg/logger"
+	"echo-rest-api/pkg/middlewares"
+	sqlTools "echo-rest-api/pkg/sql-tools"
+
 	"github.com/labstack/echo/v4"
 	"go.uber.org/dig"
 )

@@ -4,15 +4,16 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/dzungtran/echo-rest-api/modules/projects/domains"
-	"github.com/dzungtran/echo-rest-api/modules/projects/dto"
-	"github.com/dzungtran/echo-rest-api/modules/projects/usecases"
-	"github.com/dzungtran/echo-rest-api/pkg/constants"
-	"github.com/dzungtran/echo-rest-api/pkg/contexts"
-	"github.com/dzungtran/echo-rest-api/pkg/logger"
-	"github.com/dzungtran/echo-rest-api/pkg/middlewares"
-	"github.com/dzungtran/echo-rest-api/pkg/utils"
-	"github.com/dzungtran/echo-rest-api/pkg/wrapper"
+	"echo-rest-api/modules/projects/domains"
+	"echo-rest-api/modules/projects/dto"
+	"echo-rest-api/modules/projects/usecases"
+	"echo-rest-api/pkg/constants"
+	"echo-rest-api/pkg/contexts"
+	"echo-rest-api/pkg/logger"
+	"echo-rest-api/pkg/middlewares"
+	"echo-rest-api/pkg/utils"
+	"echo-rest-api/pkg/wrapper"
+
 	"github.com/labstack/echo/v4"
 )
 

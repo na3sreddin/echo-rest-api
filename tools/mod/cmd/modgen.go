@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -12,8 +11,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/dzungtran/echo-rest-api/pkg/logger"
-	"github.com/dzungtran/echo-rest-api/pkg/utils"
+	"echo-rest-api/pkg/logger"
+	"echo-rest-api/pkg/utils"
+
 	"github.com/gertd/go-pluralize"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
@@ -69,7 +69,7 @@ var modgenCmd = &cobra.Command{
 		folderStruct := make(map[string]bool)
 
 		pluralize := pluralize.NewClient()
-		yamlFile, err := ioutil.ReadFile(configFile)
+		yamlFile, err := os.ReadFile(configFile)
 		if err != nil {
 			return err
 		}
@@ -138,7 +138,7 @@ var modgenCmd = &cobra.Command{
 		for fn, c := range parsedFiles {
 			fn = strings.ReplaceAll(fn, ".gotpl", ".go")
 			fn = strings.ReplaceAll(fn, "placeholder", utils.ToSnake(tVars.SingularName))
-			err = ioutil.WriteFile(fn, []byte(c), 0644)
+			err = os.WriteFile(fn, []byte(c), 0644)
 			if err != nil {
 				fmt.Println("failed writing to file: ", fn, "\n", err.Error())
 			}

@@ -3,9 +3,10 @@ package sqlTools
 import (
 	"database/sql"
 
+	"echo-rest-api/pkg/logger"
+
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/Masterminds/squirrel"
-	"github.com/dzungtran/echo-rest-api/pkg/logger"
 	"github.com/jmoiron/sqlx"
 )
 

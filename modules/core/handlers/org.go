@@ -5,14 +5,15 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/dzungtran/echo-rest-api/modules/core/domains"
-	"github.com/dzungtran/echo-rest-api/modules/core/dto"
-	"github.com/dzungtran/echo-rest-api/modules/core/usecases"
-	"github.com/dzungtran/echo-rest-api/pkg/contexts"
-	"github.com/dzungtran/echo-rest-api/pkg/logger"
-	"github.com/dzungtran/echo-rest-api/pkg/middlewares"
-	"github.com/dzungtran/echo-rest-api/pkg/utils"
-	"github.com/dzungtran/echo-rest-api/pkg/wrapper"
+	"echo-rest-api/modules/core/domains"
+	"echo-rest-api/modules/core/dto"
+	"echo-rest-api/modules/core/usecases"
+	"echo-rest-api/pkg/contexts"
+	"echo-rest-api/pkg/logger"
+	"echo-rest-api/pkg/middlewares"
+	"echo-rest-api/pkg/utils"
+	"echo-rest-api/pkg/wrapper"
+
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"
 )

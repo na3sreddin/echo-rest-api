@@ -6,13 +6,14 @@ import (
 	"errors"
 	"fmt"
 
+	"echo-rest-api/infrastructure/datastore"
+	"echo-rest-api/modules/core/domains"
+	"echo-rest-api/pkg/constants"
+	"echo-rest-api/pkg/contexts"
+	sqlTools "echo-rest-api/pkg/sql-tools"
+	"echo-rest-api/pkg/utils"
+
 	"github.com/Masterminds/squirrel"
-	"github.com/dzungtran/echo-rest-api/infrastructure/datastore"
-	"github.com/dzungtran/echo-rest-api/modules/core/domains"
-	"github.com/dzungtran/echo-rest-api/pkg/constants"
-	"github.com/dzungtran/echo-rest-api/pkg/contexts"
-	sqlTools "github.com/dzungtran/echo-rest-api/pkg/sql-tools"
-	"github.com/dzungtran/echo-rest-api/pkg/utils"
 	"github.com/jmoiron/sqlx"
 )
 

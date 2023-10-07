@@ -6,13 +6,14 @@ import (
 	"context"
 	"errors"
 
-	"github.com/dzungtran/echo-rest-api/modules/core/domains"
-	"github.com/dzungtran/echo-rest-api/modules/core/dto"
-	"github.com/dzungtran/echo-rest-api/modules/core/repositories"
-	"github.com/dzungtran/echo-rest-api/pkg/contexts"
-	"github.com/dzungtran/echo-rest-api/pkg/cue"
-	sqlTools "github.com/dzungtran/echo-rest-api/pkg/sql-tools"
-	"github.com/dzungtran/echo-rest-api/pkg/utils"
+	"echo-rest-api/modules/core/domains"
+	"echo-rest-api/modules/core/dto"
+	"echo-rest-api/modules/core/repositories"
+	"echo-rest-api/pkg/contexts"
+	"echo-rest-api/pkg/cue"
+	sqlTools "echo-rest-api/pkg/sql-tools"
+	"echo-rest-api/pkg/utils"
+
 	"github.com/jinzhu/copier"
 )
 

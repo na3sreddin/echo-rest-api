@@ -2,13 +2,14 @@ package main
 
 import (
 	"encoding/json"
-	"io/ioutil"
+	"os"
 	"strings"
 
-	"github.com/dzungtran/echo-rest-api/cmd/api/di"
-	"github.com/dzungtran/echo-rest-api/config"
-	"github.com/dzungtran/echo-rest-api/infrastructure/datastore"
-	"github.com/dzungtran/echo-rest-api/pkg/logger"
+	"echo-rest-api/cmd/api/di"
+	"echo-rest-api/config"
+	"echo-rest-api/infrastructure/datastore"
+	"echo-rest-api/pkg/logger"
+
 	"github.com/labstack/echo/v4"
 )
 
@@ -45,5 +46,5 @@ func generateRoutes() {
 	if err != nil {
 		logger.Log().Fatalf("error json marshal: %v", err)
 	}
-	ioutil.WriteFile("./pkg/authz/routes.json", data, 0644)
+	os.WriteFile("./pkg/authz/routes.json", data, 0644)
 }
