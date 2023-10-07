@@ -15,7 +15,7 @@ require (
 	github.com/jackc/pgx/v4 v4.18.1
 	github.com/jinzhu/copier v0.3.5
 	github.com/jmoiron/sqlx v1.3.5
-	github.com/joho/godotenv v1.3.0
+	github.com/joho/godotenv v1.5.1
 	github.com/labstack/echo/v4 v4.10.2
 	github.com/lib/pq v1.10.6
 	github.com/lithammer/shortuuid/v4 v4.0.0
