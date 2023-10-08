@@ -24,9 +24,9 @@ services:
     networks:
       - backend
     environment:
-      POSTGRES_DB: echo_rest_api
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: secret
+      - POSTGRES_DB=echo_rest_api
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=secret
     ports:
       - "5432:5432"
 
